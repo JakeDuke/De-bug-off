@@ -1,3 +1,4 @@
+````
 function solution(nums){
 var sorted = [];
 if (nums === null) {
@@ -10,3 +11,4 @@ return sorted;
 solution([2,5,3,7]);
 
 expected [ 2, 3, 5, 7 ]
+````
