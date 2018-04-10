@@ -1,0 +1,10 @@
+function solution(nums){
+  var sorted = [];
+    if (nums === null) {
+    return [];
+    } else {
+      sorted = nums.sort(function(a,b){return a-b});
+    }
+    return sorted;
+    }
+solution([2,5,3,7]);
